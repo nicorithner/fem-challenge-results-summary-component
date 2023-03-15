@@ -6,7 +6,7 @@ const GlobalStyles = createGlobalStyle`
 */
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: 'Outfit';
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 /*
@@ -60,6 +60,36 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 #root, #__next {
   isolation: isolate;
+}
+
+/*
+  10. Fonts
+
+  The code below doesn't seem to be working 🚨⬇️.
+*/
+
+@font-face {
+  font-family: "HankenGroteskBold";
+  src: url("../public/fonts/static/HankenGrotesk-Medium.ttf") format('tff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "HankenGroteskExtraBold";
+  src: url("../public/fonts/static/HankenGrotesk-ExtraBold.ttf") format('tff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "HankenGroteskMedium";
+  src: url("../public/fonts/static/HankenGrotesk-Bold.ttf") format('tff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: fallback;
 }
 `;
 
