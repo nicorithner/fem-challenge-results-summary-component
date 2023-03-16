@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { GRADIANTS, NEUTRAL, PRIMARY } from "../../constants";
+import { PRIMARY, PRIMARY_WITH_OPACITY } from "../../constants";
 
 export const SkillBar = styled.div`
   background-color: ${(props) => props.backgroundColor};
@@ -35,6 +35,6 @@ export const SkillScore = styled.p`
   line-height: 21px;
 
   span {
-    color: ${GRADIANTS.darkNavyBlue};
+    color: ${PRIMARY_WITH_OPACITY.darkNavyBlue};
   }
 `;
