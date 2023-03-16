@@ -70,7 +70,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "HankenGroteskBold";
-  src: url("../public/fonts/static/HankenGrotesk-Medium.ttf") format('tff');
+  src: url("../public/fonts/static/HankenGrotesk-Medium.ttf") format('ttf');
   font-weight: 500;
   font-style: normal;
   font-display: fallback;
@@ -78,7 +78,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "HankenGroteskExtraBold";
-  src: url("../public/fonts/static/HankenGrotesk-ExtraBold.ttf") format('tff');
+  src: url("../public/fonts/static/HankenGrotesk-ExtraBold.ttf") format('ttf');
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
@@ -86,7 +86,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "HankenGroteskMedium";
-  src: url("../public/fonts/static/HankenGrotesk-Bold.ttf") format('tff');
+  src: url("../public/fonts/static/HankenGrotesk-Bold.ttf") format('ttf');
   font-weight: 800;
   font-style: normal;
   font-display: fallback;
