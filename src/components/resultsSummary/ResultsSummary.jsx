@@ -1,4 +1,4 @@
-import SkillScoreBar from "../skillBarScore/SkillScoreBar.jsx";
+import SkillScoreBar from "../skillScoreBar/SkillScoreBar.jsx";
 import { PRIMARY, PRIMARY_WITH_OPACITY } from "../../constants.js";
 import {
   ResultsSummaryWrapper,
