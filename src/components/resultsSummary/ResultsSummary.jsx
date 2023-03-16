@@ -1,11 +1,9 @@
 import SkillScoreBar from "../skillScoreBar/SkillScoreBar.jsx";
+import AvrgScoreCard from "../avrgScoreCard/AvrgScoreCard.jsx";
+
 import { PRIMARY, PRIMARY_WITH_OPACITY } from "../../constants.js";
 import {
   ResultsSummaryWrapper,
-  AvrgScoreCard,
-  ScoreCircle,
-  Score,
-  ScoreSubText,
   SummaryCard,
   ScoreBarWrapper,
   SummaryCardButton,
@@ -19,21 +17,8 @@ import iconVisual from "../../assets/images/icon-visual.svg";
 export default function ResultsSummary() {
   return (
     <ResultsSummaryWrapper>
+      <AvrgScoreCard average={76} />
       <SummaryCard>
-        <AvrgScoreCard>
-          <h1>Your Result</h1>
-          <ScoreCircle>
-            <Score>76</Score>
-            <ScoreSubText>of 100</ScoreSubText>
-          </ScoreCircle>
-
-          <h1>Great</h1>
-
-          <p>
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
-        </AvrgScoreCard>
-
         <h1>Summary</h1>
 
         <ScoreBarWrapper>
