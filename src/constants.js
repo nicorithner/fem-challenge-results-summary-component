@@ -17,6 +17,7 @@ export const PRIMARY_WITH_OPACITY = {
 
 export const GRADIANTS = {
   lightSlateBlueBackground: "hsl(252, 100%, 67%)",
+  mediumSlateBlueBackground: "hsl(252, 100%, 63%)",
   lightRoyalBlueBackground: "hsl(241, 81%, 54%)",
 
   violetBlueCircle: "hsla(256, 72%, 46%, 1)",
