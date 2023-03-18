@@ -13,6 +13,10 @@ export const AvrgScoreCardWrapper = styled.div`
   color: ${NEUTRAL.lightLavender};
   font-weight: 700;
   padding: 20px;
+
+  @media (max-width: 400px) {
+      width: 100%;
+    }
 `;
 
 export const AvgScoreCardTitle = styled.h1`
