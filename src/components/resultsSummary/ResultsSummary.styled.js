@@ -2,13 +2,21 @@ import styled from "styled-components";
 import { NEUTRAL, PRIMARY } from "../../constants";
 
 export const ResultsSummaryWrapper = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   width: 736px;
   height: 512px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: ${NEUTRAL.white};
+  border-radius: ${32 / 16}rem;
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+
+  @media (max-width: 400px) {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: -25px;
+  }
 `;
 
 export const SummaryCard = styled.div`
@@ -23,6 +31,10 @@ export const SummaryCard = styled.div`
     font-weight: 700;
     font-size: ${24 / 16}rem;
     line-height: ${28 / 16}rem;
+  }
+
+  @media (max-width: 400px) {
+    gap: 1rem;
   }
 `;
 
