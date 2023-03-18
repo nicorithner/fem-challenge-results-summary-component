@@ -64,12 +64,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*
   10. Fonts
-
-  The code below doesn't seem to be working 🚨⬇️.
 */
 
 @font-face {
-  font-family: "HankenGroteskBold";
+  font-family: "Hanken Grotesk";
   src: url("../public/fonts/static/HankenGrotesk-Medium.ttf") format('ttf');
   font-weight: 500;
   font-style: normal;
@@ -77,7 +75,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-  font-family: "HankenGroteskExtraBold";
+  font-family: "Hanken Grotesk";
   src: url("../public/fonts/static/HankenGrotesk-ExtraBold.ttf") format('ttf');
   font-weight: 700;
   font-style: normal;
@@ -85,7 +83,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-  font-family: "HankenGroteskMedium";
+  font-family: "Hanken Grotesk";
   src: url("../public/fonts/static/HankenGrotesk-Bold.ttf") format('ttf');
   font-weight: 800;
   font-style: normal;
