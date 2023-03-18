@@ -13,6 +13,7 @@ export const PRIMARY_WITH_OPACITY = {
   cobaltBlue: "hsla(234, 85%, 45%, 0.15)",
   darkNavyBlue: "hsla(223, 30%, 27%, 0.5)",
   lightLavender: "hsla(241, 100%, 89%, 0.5)",
+  persianBlueCircle: "hsla(241, 72%, 46%, 0.6)",
 };
 
 export const GRADIANTS = {

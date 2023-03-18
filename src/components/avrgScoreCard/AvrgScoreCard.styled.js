@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { NEUTRAL, PRIMARY_WITH_OPACITY } from "../../constants";
+import { GRADIANTS, NEUTRAL, PRIMARY_WITH_OPACITY } from "../../constants";
 
 export const AvrgScoreCardWrapper = styled.div`
   background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
@@ -26,9 +26,9 @@ export const AvgScoreCardTitle = styled.h1`
 export const ScoreCircle = styled.div`
   background: linear-gradient(
     180deg,
-    #4d21c9 0%,
-    rgba(37, 33, 201, 0) 100%,
-    rgba(37, 33, 201, 0) 100%
+    ${GRADIANTS.violetBlueCircle},
+    ${PRIMARY_WITH_OPACITY.persianBlueCircle},
+    ${GRADIANTS.persianBlueCircle}
   );
   border-radius: 50%;
   width: 200px;
