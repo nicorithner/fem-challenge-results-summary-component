@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import { NEUTRAL } from "./constants";
 
 const GlobalStyles = createGlobalStyle`
 /*
@@ -22,7 +21,6 @@ const GlobalStyles = createGlobalStyle`
 */
 html, body {
   height: 100%;
-  background-color: ${NEUTRAL.paleBlue};
 }
 
 /*
