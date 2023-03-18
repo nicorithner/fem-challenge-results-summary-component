@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { NEUTRAL, PRIMARY } from "../../constants";
+import { GRADIANTS, NEUTRAL, PRIMARY } from "../../constants";
 
 export const ResultsSummaryWrapper = styled.div`
   display: flex;
@@ -55,4 +55,14 @@ export const SummaryCardButton = styled.button`
   font-weight: 700;
   font-size: ${18 / 16}rem;
   line-height: ${21 / 16}rem;
+
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      ${GRADIANTS.lightSlateBlueBackground},
+      ${GRADIANTS.mediumSlateBlueBackground},
+      ${GRADIANTS.lightRoyalBlueBackground}
+    );
+    cursor: pointer;
+  }
 `;
