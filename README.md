@@ -29,15 +29,22 @@ Users should be able to:
 
 #### Desktop View
 
-![Desktop View](./public/desktop-view.png =500x)
+<div align='center'>
+  <img src='./public/desktop-view.png' style="width: 500px" />
+</div>
 
 #### Mobile View
 
-![Mobile View](./public/mobile-view.png =500x)
+<div align='center'>
+  <img src='./public/mobile-view.png' style="width: 500px" />
+</div>
+
 
 #### Active View
 
-![Active View](./public/active-view.png =500x)
+<div align='center'>
+  <img src='./public/active-view.png' style="width: 500px" />
+</div>
 
 </div>
 
